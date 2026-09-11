@@ -1,7 +1,7 @@
 import dns.resolver
 
 res = dns.resolver.Resolver()
-arquivo = open("/home/kali/dns-tool/wordlist.txt", "r")
+arquivo = open("wordlist.txt", "r")
 subdominios = arquivo.read().splitlines()
 
 alvo = ""
